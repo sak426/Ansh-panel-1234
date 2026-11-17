@@ -1,0 +1,16 @@
+{
+  "name": "ansh-panel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Docker-free Minecraft server management panel",
+  "main": "server.js",
+  "scripts": {"start": "node server.js"},
+  "engines": {"node": ">=20"},
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "dotenv": "^16.4.7",
+    "multer": "^1.4.5-lts.1"
+  }
+}
